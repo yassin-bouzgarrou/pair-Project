@@ -1,0 +1,79 @@
+body {
+    background-image: url('/images/backgrund.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Playfair Display SC', serif;
+}
+#singup{
+   
+    margin-top: 200px;
+    border: 2px solid  rgb(0, 0, 0);
+    width:fit-content;
+    background-color: rgba(0, 0, 0, 0.666);
+    margin-bottom: 50px;
+    padding: 20px 30px 30px 40px;
+    opacity: 1;
+
+
+    }
+    #singup  h1{
+        margin-left: 20px;
+        color: white;
+        font-size: 30px;
+
+    }
+    #singup button{
+        margin-top: 30px;
+    }
+    
+    #login{ 
+        margin-top: 200px;
+        border: 2px solid  rgb(0, 0, 0);
+        width:fit-content;
+        background-color: rgba(0, 0, 0, 0.666);
+        margin-bottom: 50px;
+        padding: 20px 30px 30px 40px;
+        opacity: 1;
+      
+
+    }
+    #login h1{
+        margin-left: 20px;
+        color: white;
+        font-size: 30px;
+
+     
+    }
+    #login button{
+        margin-top: 30px;
+    }
+    button{
+        
+          margin-left: 20px ;
+          padding: 5px 19px;
+          font-size: 22px;
+          border-radius: 6px;
+          margin-left: 90px;
+          border:none;
+          background-color: rgb(245, 0, 0);
+          color: white;
+      
+    }
+    button:hover{
+            background-color: #3e8e41
+    }
+    input{
+    margin-left: 10px;
+    width: 300px;
+    height: 50x;
+    padding: 7px;
+    border: none;
+    
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(103, 103, 103);
+    }
